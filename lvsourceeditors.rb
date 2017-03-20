@@ -5,7 +5,7 @@
 class Lvsourceeditors < Formula
   desc "replace #import to @import quote"
   homepage "http://lvioscode.com/ios_support_tools/LvmmSourceEditor.git"
-  url "http://10.200.5.103/ios_support_tools/LvmmSourceEditor/raw/1.0.0/lvReplaceOneFrameworks"
+  url "http://10.200.5.103/ios_support_tools/LvmmSourceEditor/raw/1.0.0/lvrof"
   version "1.0.0"
   sha256 "9714a25f5a20664bed904bd7e90710188764845edfa7062fedea1a6e6d2f4722"
 
@@ -16,7 +16,7 @@ class Lvsourceeditors < Formula
 
     # system "cmake", ".", *std_cmake_args
     # system "make", "install" # if this fails, try separate make/make install steps
-    bin.install "lvReplaceOneFrameworks"
+    bin.install "lvrof"
   end
 
   test do
