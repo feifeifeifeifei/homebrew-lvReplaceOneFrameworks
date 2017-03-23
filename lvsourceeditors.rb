@@ -6,7 +6,7 @@ class Lvsourceeditors < Formula
   desc "replace #import to @import quote"
   homepage "http://lvioscode.com/ios_support_tools/LvmmSourceEditor.git"
   url "http://10.200.5.103/ios_support_tools/LvmmSourceEditor/raw/1.0.0/ReplaceOneFramework/lvrof"
-  version "1.0.0"
+  version "1.1.0"
   sha256 "6a7de1f52ed697846815f310270a8c7c8e872aaa6c492d55785b8c06e5b1a3b7"
 
   # depends_on "cmake" => :build
